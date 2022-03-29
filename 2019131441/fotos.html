@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+
+    <title>Bootstrap 4 profile page - Bootsnipp.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <script src="assets/VentanaCentrada.js"></script>
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        /* .container{
+	width:90%
+	margin:10px auto;
+} */
+        .portfolio-menu {
+            text-align: center;
+        }
+
+            .portfolio-menu ul li {
+                display: inline-block;
+                margin: 0;
+                list-style: none;
+                padding: 10px 15px;
+                cursor: pointer;
+                -webkit-transition: all 05s ease;
+                -moz-transition: all 05s ease;
+                -ms-transition: all 05s ease;
+                -o-transition: all 05s ease;
+                transition: all .5s ease;
+            }
+
+        .portfolio-item {
+            /*width:100%;*/
+        }
+
+            .portfolio-item .item {
+                /*width:303px;*/
+                float: left;
+                margin-bottom: 10px;
+            }
+    </style>
+
+    <script>
+        $('.portfolio-menu ul li').click(function () {
+            $('.portfolio-menu ul li').removeClass('active');
+            $(this).addClass('active');
+
+    </script>
+
+    <script>
+
+        $(document).ready(function () {
+            $('.menuContainer').load('./menu.html');
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.menuContainerh').load('./menuh.html');
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.menuContainerf').load('./footer.html');
+        });
+
+    </script>
+</head>
+<body>
+
+    <div class="menuContainer"></div>
+    <!-- partial -->
+    <div class="main-panel">
+        <div class="container">
+
+
+            <div class="row">
+                <div class="col-md-4 ">
+                    <div class="menuContainerh"> </div>
+                </div>
+                <div class="col-md-8 grid-margin stretch-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-title font-weight-bold text-center">Galeria de GODBLADE512</p>
+                            <hr>
+
+                            <div class="container">
+
+                                <div class="portfolio-menu mt-2 mb-4">
+                                    <ul>
+                                        <li class="btn btn-outline-dark active" data-filter="*">All</li>
+                                        <li class="btn btn-outline-dark " data-filter=".gts">Girls T-shirt</li>
+                                        <li class="btn btn-outline-dark" data-filter=".lap">Laptops</li>
+                                        <li class="btn btn-outline-dark text" data-filter=".selfie">selfie</li>
+                                    </ul>
+                                </div>
+                                <div class="portfolio-item row">
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/1lEW4fnfN2GEr9ET_R4IDM4Wm5lj4LCxr0Jist6ITI2GNwzSI90jOkOemGFa536-OLw-iWRQuqytM-iaODSuG7h2tamRw94vANlDS8u-0SwzXL7ikY7-yvZrNl5QaXmxKw33YJEZtA=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/1lEW4fnfN2GEr9ET_R4IDM4Wm5lj4LCxr0Jist6ITI2GNwzSI90jOkOemGFa536-OLw-iWRQuqytM-iaODSuG7h2tamRw94vANlDS8u-0SwzXL7ikY7-yvZrNl5QaXmxKw33YJEZtA=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/GEr6r0HT_gV-EC4Wi9bLvL0BlvTV6hp0NgRujsJBemulBP3ewH889uzKcfKKc7ZSzLPhRsQ1w7NjdoPTzgH2Tsv5XQq1N7ebxsWTW_0VwrkPWdXigQ35NU38AjL1pmotDHI4KWn03g=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/GEr6r0HT_gV-EC4Wi9bLvL0BlvTV6hp0NgRujsJBemulBP3ewH889uzKcfKKc7ZSzLPhRsQ1w7NjdoPTzgH2Tsv5XQq1N7ebxsWTW_0VwrkPWdXigQ35NU38AjL1pmotDHI4KWn03g=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/YSqX20q9ZnpoHdTXLB1F9wkIOTx2cTToxsUC24EETOgOPq45i7rMbrESSt-ccZ75em7FEzrRFnp-ZDMRuTGJ-kP94BTCT9XRSWCR5q0o3u7b3YbgaKmd9G5GX6fOFEEnVb2A-KYSzw=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/YSqX20q9ZnpoHdTXLB1F9wkIOTx2cTToxsUC24EETOgOPq45i7rMbrESSt-ccZ75em7FEzrRFnp-ZDMRuTGJ-kP94BTCT9XRSWCR5q0o3u7b3YbgaKmd9G5GX6fOFEEnVb2A-KYSzw=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+                                        <a href="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" class="fancylight popup-btn" data-fancybox-group="light">
+                                            <img class="img-fluid" src="https://lh3.googleusercontent.com/AtmMKarWPcbYtWR2ENKughADXFoG4uYSqCRklmRim6PHRKjOahPZ8IFWp3vwGIOarCSy8Q-8hEZ0MFJXrtFEv-Yv1LT-bCpkFLctxS9IDXCARbc3z7Cj9Q16k85E1e9-pWuUpOhaYg=w2400" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="menuContainerf"> </div>
+
+        </div>
+    </div>
+    <!-- main-panel ends -->
+    <script type="text/javascript">
+        // $('.portfolio-item').isotope({
+        //  	itemSelector: '.item',
+        //  	layoutMode: 'fitRows'
+        //  });
+        $('.portfolio-menu ul li').click(function () {
+            $('.portfolio-menu ul li').removeClass('active');
+            $(this).addClass('active');
+
+            var selector = $(this).attr('data-filter');
+            $('.portfolio-item').isotope({
+                filter: selector
+            });
+            return false;
+        });
+        $(document).ready(function () {
+            var popup_btn = $('.popup-btn');
+            popup_btn.magnificPopup({
+                type: 'image',
+                gallery: {
+                    enabled: true
+                }
+            });
+        });</script>
+</body>
+</html>

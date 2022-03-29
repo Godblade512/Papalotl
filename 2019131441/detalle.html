@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Giovani Israel Villavicencio Pablo">
+    <meta name="description" content="Grupo 6IV13   Desarrollo WEB - Multimedia">
+
+    <title>Cecyt 13</title>
+    <link rel="icon" href="imagen/banderin.png" type="image/png">
+    <link rel="shortcut icon" href="image/banderin.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="assets/VentanaCentrada.js"></script>
+
+    <style type="text/css">
+        body {
+            background-color: #f3f3f3;
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #000;
+        }
+
+        p {
+            font-size: 0.875rem;
+            margin-bottom: .5rem;
+            line-height: 1.3rem;
+        }
+
+
+        .card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid #e7eaed;
+            border-radius: 0;
+        }
+
+            .card .card-description {
+                margin-bottom: .875rem;
+                font-weight: 400;
+                color: #76838f;
+            }
+
+
+
+
+
+
+        .profile-header {
+            height: 150px;
+            width: 100%;
+            position: relative;
+        }
+
+        .cover-image {
+            height: 150px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+
+
+        .user-image {
+            position: absolute;
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            bottom: -50%;
+            left: 50%;
+            /* top: 50%; */
+            transform: translate(-50%, -50%);
+            z-index: 5;
+        }
+
+            .user-image img {
+                height: 80px;
+                width: 80px;
+                border-radius: 50%;
+                top: -40px;
+                border: 5px solid #777;
+            }
+
+        .profile-card .profile-content {
+            padding: 50px 20px 30px 20px;
+        }
+
+
+
+        .profile-card .profile-name {
+            font-size: 1.2rem;
+            color: #3249b9;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .profile-card .profile-designation {
+            font-size: 13px;
+            color: #777;
+            text-align: center;
+        }
+
+        .profile-card .profile-description {
+            padding: 10px;
+            font-size: 13px;
+            color: #777;
+            margin: 5px 0px;
+            background-color: #F1F2F3;
+            border-radius: 5px;
+        }
+
+        .profile-card ul.profile-info-list {
+            padding: 0;
+            margin: 10px 0;
+            list-style: none;
+            font-size: 1rem;
+            font-weight: 500;
+            color: #777;
+        }
+
+
+
+
+            .profile-card ul.profile-info-list a {
+                text-decoration: none;
+                color: inherit;
+            }
+
+
+
+        .profile-card a.profile-info-list-item {
+            margin: 10px 0;
+            padding: 15px;
+            background-color: #F1F2F3;
+            display: block;
+            -webkit-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+        }
+
+            .profile-card a.profile-info-list-item:hover {
+                background-color: #9E9E9E;
+                color: white;
+                -webkit-transition: all .5s ease-in-out;
+                -o-transition: all .5s ease-in-out;
+                transition: all .5s ease-in-out;
+            }
+
+
+            .profile-card a.profile-info-list-item i {
+                padding: 10px;
+            }
+
+        ul.about {
+            list-style: none;
+            color: black;
+            padding: 0;
+        }
+
+        li.about-items {
+            margin: 10px;
+            font-size: 0.9rem;
+            font-family: sans-serif; 
+            font-weight: 400; 
+        }
+
+
+
+            li.about-items i {
+                color: #607d8b;
+            }
+
+        span.about-item-name {
+            width: 100px;
+            display: inline-flex;
+            margin-left: 10px;
+        }
+
+
+        span.about-item-detail {
+            display: inline-flex;
+            width: calc(100% - 160px);
+        }
+
+            span.about-item-detail > button {
+                margin-right: 10px;
+            }
+
+        .btn.btn-icon {
+            width: 40px;
+            height: 40px;
+            padding: 0;
+        }
+
+        .btn.btn-rounded {
+            border-radius: 50px;
+        }
+
+        a.about-item-edit {
+            float: right;
+        }
+    </style>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.menuContainer').load('./menu.html');
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.menuContainerh').load('./menuh.html');
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.menuContainerf').load('./footer.html');
+        });
+    </script>
+</head>
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/4.4.95/css/materialdesignicons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+    <div class="menuContainer"></div>
+    <!-- partial -->
+    <div class="main-panel">
+        <div class="container">
+
+
+            <div class="row">
+                <div class="col-md-4 ">
+                    <div class="menuContainerh"> </div>
+                </div>
+
+                <div class="col-md-8 grid-margin stretch-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-title font-weight-bold text-center">Boleta 2019131441</p>
+                            <hr>
+                            <p class="card-description">User Information</p>
+                            <ul class="about">
+                                <li class="about-items"><i class="mdi mdi-account icon-sm "></i><span class="about-item-name">Name:</span><span class="about-item-detail">Giovani Israel Villavicencio Pablo</span></li>
+                                <li class="about-items"><i class="mdi mdi-mail-ru icon-sm "></i><span class="about-item-name">username:</span><span class="about-item-detail">Giovani Israel</span> </li>
+                                <li class="about-items"><i class="mdi mdi-lock-outline icon-sm "></i><span class="about-item-name">Grupo:</span><span class="about-item-detail">6IV13</span> </li>
+                                <li class="about-items"><i class="mdi mdi-format-align-left icon-sm "></i><span class="about-item-name">Bio:</span><span class="about-item-detail">Hola mi nombre es Giovani, tengo 18 años y actualmente estudio en el centro de estudios cientificos y tecnologicos 13 RFM, en la carrera de informatica</span> </li>
+
+                                <li class="about-items">
+                                    <i class="mdi mdi-trophy-variant-outline icon-sm "></i><span class="about-item-name">Social:</span><span class="about-item-detail">
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/israel.villavicencio.52/">
+                                                    <i class="mdi mdi-facebook icon-lg"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.friv.com/">
+                                                    <i class="mdi mdi-twitter icon-lg"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.instagram.com/gio_villa512/?hl=es-la">
+                                                    <i class="mdi mdi-instagram icon-lg"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.youtube.com/channel/UCHep3RBcVV-nN4TMFMWxBWg">
+                                                    <i class="mdi mdi-youtube icon-lg"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="mdi mdi-google icon-lg"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+
+
+
+                                    </span>
+                                </li>
+
+                            </ul>
+                            <p class="card-description">Contact Information</p>
+                            <ul class="about">
+                                <li class="about-items"><i class="mdi mdi-phone icon-sm "></i><span class="about-item-name">Phone:</span><span class="about-item-detail">+52 5510492654</span></li>
+                                <li class="about-items"><i class="mdi mdi-map-marker icon-sm "></i><span class="about-item-name">Address:</span><span class="about-item-detail">Sisal entre chemax y sinanche</span> </li>
+                                <li class="about-items"><i class="mdi mdi-email-outline icon-sm "></i><span class="about-item-name">Email:</span><span class="about-item-detail"><a href="">villavicenciopablogio@gmail.com</a></span> </li>
+                                <li class="about-items"><i class="mdi mdi-web icon-sm "></i><span class="about-item-name">Site:</span><span class="about-item-detail"><a href="google.com">www.google.com</a></span>
+                            </ul>
+                            <p class="card-description">Basic Information</p>
+                            <ul class="about">
+                                <li class="about-items"><i class="mdi mdi-cake icon-sm "></i><span class="about-item-name">Birthday:</span><span class="about-item-detail">Oct 15 , 2003</span></li>
+                                <li class="about-items"><i class="mdi mdi-account icon-sm "></i><span class="about-item-name">Gender:</span><span class="about-item-detail">Hombre</span> </li>
+                                <li class="about-items"><i class="mdi mdi-clipboard-account icon-sm "></i><span class="about-item-name">Profession:</span><span class="about-item-detail">Estudiante</span> </li>
+                                <li class="about-items"><i class="mdi mdi-water icon-sm "></i><span class="about-item-name">Blood Group:</span><span class="about-item-detail">O+</span> </li>
+                                <li class="about-items"><i class="mdi mdi-human-male-female icon-sm "></i><span class="about-item-name">Relationship Status:</span><span class="about-item-detail">FELIZMENTE CASADO CON FRIDUKIS666</span> </li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="menuContainerf"> </div>
+
+        </div>
+    </div>
+    <!-- main-panel ends -->
+    <script type="text/javascript">
+    </script>
+</body>
+</html>

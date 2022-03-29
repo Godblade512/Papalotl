@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+
+    <title>Bootstrap 4 profile page - Bootsnipp.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="assets/VentanaCentrada.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.menuContainer').load('./menu.html');
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.menuContainerh').load('./menuh.html');
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.menuContainerf').load('./footer.html');
+        });
+    </script>
+</head>
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/4.4.95/css/materialdesignicons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <div class="menuContainer"></div>
+    <!-- partial -->
+    <div class="main-panel">
+        <div class="container">
+
+
+            <div class="row">
+                <div class="col-md-4 ">
+                    <div class="menuContainerh"> </div>
+                </div>
+                <div class="col-md-8 grid-margin stretch-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-title font-weight-bold text-center">Audio</p>
+                            <hr>
+                            <p class="card-description">Audio</p>
+                            <!--start code-->
+
+                            <audio src="imagen/YouTu.mp3" autoplay preload controls loop>
+                                Audio no soportado
+                            </audio>
+                            <audio src="imagen/Maincra.mp3" controls loop>
+                                Audio no soportado
+                            </audio>
+                            <audio src="imagen/Elmoco.mp3" controls loop>
+                                Audio no soportado
+                            </audio>
+                            <audio src="imagen/Yutu.mp3" controls loop>
+                                Audio no soportado
+                            </audio>
+                            <!--end code-->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="menuContainerf"> </div>
+
+        </div>
+    </div>
+    <!-- main-panel ends -->
+
+</body>
+</html>
